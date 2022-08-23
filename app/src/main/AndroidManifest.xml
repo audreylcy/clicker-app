@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.election">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Get To Know You!"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Election"
+        android:fontFamily="@font/zagregular">
+        <activity android:name=".Selecta" />
+        <activity android:name=".Selectb" />
+        <activity android:name=".Selectc" />
+        <activity android:name=".Selectd" />
+        <activity android:name=".QuizActivityRecieved" />
+        <activity android:name=".QuizActivity6" />
+        <activity android:name=".QuizActivity5" />
+        <activity android:name=".QuizActivity4" />
+        <activity android:name=".QuizActivity3" />
+        <activity android:name=".QuizActivity2" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".StartingScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
